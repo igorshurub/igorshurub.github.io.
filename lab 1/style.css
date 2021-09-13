@@ -1,0 +1,61 @@
+body{
+    margin: 0%;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    background-color: black;
+    color: white;
+    background-image: url(images/Roma-futbolnyy-klub.jpg) ;
+    background-size: 360px;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+.container{
+    max-width: 75%;
+
+    margin: 0 auto;
+}
+.main-menu {
+    font-size: 1.5em;
+    font-weight: 800;
+    padding: 20px 0;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    margin-top: 1.5rem;
+}
+.btn {
+    text-decoration: none;
+    color: tomato;
+    font-weight: bold;
+    border: 2px solid tomato;
+    padding: 10px;
+    border-radius: 5px;
+}
+.btn:hover{
+    transition: color 0.5s, border-color 0.5s;
+    color: blue;
+    border-color: blue;
+}
+.text-right {
+    text-align: right;
+    }
+p {
+    text-align: justify;
+}
+.avatar{
+    height: 500px; 
+    text-align: center;
+    margin: 3rem 0;
+}
+.avatar img{
+    height:  100%;
+}
+.py-5{
+    padding-top: 0;
+    padding-bottom: 1.5rem;
+}
