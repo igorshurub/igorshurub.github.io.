@@ -1,0 +1,39 @@
+.h1{
+    text-align: center;
+}
+main{
+    margin: 0 auto;
+}
+.form-group{
+    margin: 5px auto;
+    width: 40%;
+}
+.category{
+    font-weight: bold;
+}
+.form-label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.btn{
+    display: block;
+    border: 2px solid red;
+    background-color: cornsilk;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    margin: 0 auto;
+    font-size: 15px;
+}
+.btn:hover{
+    transition: color 0.5s, border-color 0.5s;
+    color: rebeccapurple;
+    border-color: rebeccapurple;
+}
+.container{
+    font-size: 25px;
+    max-width: 700px;
+    margin: 0 auto;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Форма Аутентификации</title>
+</head>
+<body bgcolor="#c7b39b" background="images/129710-aleni.jpg">  
+
+
+    <main>
+        <h1 class="h1">Форма Аутентификации</h1>
+        <form action="https://httpbin.org/post" method="post" enctype="multipart/form-data">
+            <div  class="form-group">
+                <label class="form-label" for="username">Введите логин</label>
+                <input type="text" name="username" id="username" placeholder="логин">    
+            </div>
+            <div  class="form-group">
+                <label class="form-label" for="password">Введите пароль</label>
+                <input type="text" name="password" id="password" placeholder="пароль">    
+            </div>
+            <div class="form-group">
+                <input type="checkbox" name="agreement" id="agreement" value="yes">
+                <label for="agreement">Запомнить меня</label>
+            </div>
+                <input class="btn" type="submit" value="Войти">
+        </form> 
+    </main>
+</body>
+</html>

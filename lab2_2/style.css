@@ -1,0 +1,43 @@
+.h1{
+    font-size: 50px;
+    color: white;
+    margin-top: 250px;
+    text-align: center;
+
+}
+main{
+    margin: 0 auto;
+}
+
+.form-group{
+    color: white;
+    text-align: center;
+    margin: 15px auto;
+    width: 90%;
+    font-size: 20px;
+}
+.category{
+    font-weight: bold;
+}
+.form-label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+
+}
+
+.btn{
+    display: block;
+    border: 2px solid red;
+    background-color: cornsilk;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    margin: 0 auto;
+    font-size: 15px;
+}
+.btn:hover{
+    transition: color 0.5s, border-color 0.5s;
+    color: rebeccapurple;
+    border-color: rebeccapurple;
+}
