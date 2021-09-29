@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+}
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.navigation{
+    display: flex;
+    flex-wrap: wrap;
+    /* float: left; */
+}
+header{
+    /* position: sticky; */
+    top: 0;
+    background-color: antiquewhite;
+    padding-top: 20px;
+    min-height: 70px;
+    border-bottom: orange;
+}
+.main-menu{
+    display: flex;
+    justify-content: space-between;
+}
+@media all and (max-width:850px){
+    .main-menu{
+        flex-direction: column;
+        align-items: center;
+    }
+    .navigation{
+        flex-direction: column;
+        align-items: center;
+    }
+    .flex-wrapper{
+        flex-direction: column;
+    }
+}
+
+.main-menu a{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 15px ;
+    color: black;
+}
+
+.form-group{
+    margin-bottom: 5px;
+}
+.goods-list{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-left: 250px; */
+    padding-top: 20px;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.goods{
+    /* display: inline-block; */
+    border: 1px solid black;
+    padding: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    min-height: 250px;
+    min-width: 200px;
+}
+.good-img img{
+width: 350px;
+height: auto;
+margin: 0 auto;
+display: block;
+}
+.price-and-buy{
+    height: 50px;
+}
+.price{
+    text-align: center;
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+    box-sizing: border-box;
+    background-color: orange;
+   font-weight: bold;
+    font-size: 25px;
+    padding-top: 10px;
+}
+.buy{
+    text-align: center;
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+    box-sizing: border-box;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 10px; 
+}
+.sidebar{
+    /* float: left; */
+    display: flex;
+    width: 220px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.sidebar section{
+    width: 220px;
+}
+.flex-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+.pagination{
+    /* margin-left: 250px; */
+    padding-top: 20px;
+    /* text-align:right; */
+
+}
+.pagination .btn{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    text-decoration:  none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+.pagination .btn.active{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    color:blue ;
+    text-decoration:  none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
